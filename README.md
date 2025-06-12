@@ -1,32 +1,40 @@
-# 🌤️ Weather Forecast App
+# 🌤️ Weather Forecast Web App
 
-A responsive and beginner-friendly weather app built using **React** and **Vite**. This app fetches real-time weather data using the **OpenWeatherMap API** and displays weather conditions for any city entered by the user.
+A clean and responsive weather app built using **React.js** that displays real-time weather data by integrating with the **OpenWeatherMap API**. Users can search for any city to see the current weather conditions.
+
+![weather-app-preview](https://user-images.githubusercontent.com/00000000/placeholder.png)
+
 
 ## 🔍 Features
 
-- 🌎 Search weather by city
-- 🌡️ Shows temperature, humidity, and wind speed
-- 🎯 Displays dynamic weather icons (Rain, Clear, Clouds, etc.)
-- 🚫 Error messages for invalid cities or API issues
-- 📱 Fully responsive design
+- 🌐 Search for current weather by **city name**
+- 🌡️ Shows temperature in Celsius
+- ☁️ Weather condition icons (Clear, Cloudy, Rainy, etc.)
+- 💧 Displays humidity percentage
+- 🌬️ Displays wind speed in km/h
+- 📍 Loads **London weather by default** on app start
+- ✨ Simple and responsive UI
 
-## 🚀 Live Demo
-
-🔗 [View Live on Netlify](https://your-netlify-site.netlify.app)
+---
 
 ## 🛠️ Tech Stack
 
-- ⚛️ React
-- ⚡ Vite
-- 🎨 CSS
-- 🌐 OpenWeatherMap API
+- **React.js**
+- **OpenWeatherMap API**
+- **CSS3**
+- **Vite** (React development setup)
 
-## 🧠 What I Learned
+---
 
-- React functional components & hooks (`useState`, `useEffect`)
-- Working with external APIs
-- Handling form input and user events
-- Managing component-level state
-- Creating a clean and modern UI
-
-
+## 📁 Project Structure
+CODINGSAMURAI-Weather-App/
+├── public/
+├── src/
+│ ├── assets/ # Weather icons
+│ ├── Weather.jsx # Main weather component
+│ ├── Weather.css # Styles for the app
+│ └── App.jsx
+├── .gitignore
+├── index.html
+├── package.json
+└── README.md
