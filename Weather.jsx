@@ -9,7 +9,7 @@ import rain_icon from '../assets/rain.png';
 import snow_icon from '../assets/snow.png';
 import wind_icon from '../assets/wind.png';
 
-const API_KEY = "ee0fc3208343f263c375f9859178ae4e";
+const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
 
 const Weather = () => {
   const [city, setCity] = useState("");
