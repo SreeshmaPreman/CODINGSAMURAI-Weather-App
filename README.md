@@ -29,6 +29,4 @@ A responsive and beginner-friendly weather app built using **React** and **Vite*
 - Managing component-level state
 - Creating a clean and modern UI
 
-## 📷 Screenshot
 
-> Add your own screenshot image (e.g., `./screenshot.png`) and link here:
